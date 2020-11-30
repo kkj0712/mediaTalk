@@ -1,0 +1,605 @@
+@charset "UTF-8";
+html {
+height: 100%;
+}
+.container {
+min-height: 100%;
+position: relative;
+padding-bottom: 19px; /* footer height */
+}
+.jumbotron{
+	padding: 0 !important; 
+}
+#boxDiv{
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+#slick--div{
+	padding:50px 100px;
+}
+.autoplay{
+	text-align: center;
+}
+.card--my{
+	text-align: center; 
+	border-radius: 0;
+}
+.card--title{
+	background-color: #ff0066;
+	color: white;
+	margin-bottom: 0 !important;
+}
+.card--body{
+	background:black; 
+	border:none; 
+	padding: 0.5rem !important;
+}
+.card--body:hover{
+	cursor: pointer;
+}
+footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	
+    left: 0px;
+    z-index: 51;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    transition: all 700ms ease 0s;
+    border: gray;
+}
+
+header{
+	top:0;
+}
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+/* input 인풋 필드 */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+/* 버튼 */
+button {
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+button:hover {
+	opacity: 0.8;
+}
+.copyright{
+  color: #a5a5a7;
+  font-size: 15px;
+}
+#font-h3{
+	text-align: center;
+	text-transform: none;
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    align-items: flex-start;
+    display: inline-block;
+    text-shadow: none;
+    text-indent: 0px;
+    color:  rgb(41, 42, 50);
+    font-family: Roboto, "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+#font-h3:hover{
+	text-decoration: none;
+}
+/* 헤더 */
+a:hover{
+	text-decoration: none !important;
+}
+
+.navHeader{
+    top: 0px;
+    left: 0px;
+    z-index: 51;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    transition: all 700ms ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 0px 0px;
+}
+.ulHeader{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+#li1{
+	padding-top: 20px;
+    padding-bottom: 15px;
+	display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px 15px;
+}
+#li2{
+	padding-top: 20px;
+    padding-bottom: 15px;
+	display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px 15px;
+}
+#li2-mar0{
+	padding-top: 20px;
+    padding-bottom: 15px;
+	display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px 0px 0px 15px;
+}
+#li1:not(:last-child)::after{
+	content: "";
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    background: rgb(209, 209, 210);
+    vertical-align: top;
+    width: 1px;
+    height: 13px;
+}
+#li1-navList{
+	display: flex;
+    margin: 0px 0px 0px auto;
+}
+#LogoH{
+	text-transform: none;
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    align-items: flex-start;
+    display: inline-block;
+    text-shadow: none;
+    text-indent: 0px;
+    background: none;
+    padding: 0px;
+    border: 0;
+    outline: 0;
+    margin: 0px;
+    cursor: pointer;
+    color: #ff0066;
+    font-family: Roboto, "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+#btnH{
+	text-transform: none;
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    align-items: flex-start;
+    display: inline-block;
+    text-shadow: none;
+    text-indent: 0px;
+    background: none;
+    padding: 0px;
+    border: 0;
+    outline: 0;
+    margin: 0px;
+    cursor: pointer;
+    color: rgb(165, 165, 170);
+    font-family: Roboto, "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+/* #btnH:visited{
+	border: 0;
+    outline: 0;
+    color: rgb(41, 42, 50);
+} */
+#loginH{
+	cursor: pointer;
+	font-weight: 900;
+    background: transparent;
+    color: rgb(116, 116, 123);
+    font-size: 17px;
+    letter-spacing: -0.3px;
+    padding: 0px;
+    border: 0px;
+    margin: 3px 0px 0px auto;
+    font-family: inherit;
+    outline: 0;
+}
+#loginH:hover{
+	text-decoration: none !important;
+}
+#joinH{
+    overflow: visible;
+    display: inline-block;
+	cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 900;
+    line-height: 20px;
+    box-sizing: border-box;
+    width: auto;
+    min-width: 72px;
+    height: 32px;
+    background: transparent;
+    color: rgb(53, 53, 53);
+    text-transform: none;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    padding: 5px 14px 6px;
+    border: 1px solid rgba(116, 116, 123, 0.5);
+    text-indent: 0px;
+    text-shadow: none;
+    outline: 0;
+    font-family: inherit;
+}
+#joinH:hover{
+	text-decoration: none !important;
+}
+#adminH{
+	cursor: pointer;
+	font-weight: 900;
+    background: transparent;
+    color: rgb(116, 116, 123);
+    font-size: 17px;
+    letter-spacing: -0.3px;
+    padding: 0px;
+    border: 0;
+    margin: 3px 0px 0px auto;
+    font-family: inherit;
+    outline: 0;
+}
+#adminH:hover{
+	text-decoration: none !important;
+}
+#logoutH{
+    overflow: visible;
+    display: inline-block;
+	cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 900;
+    line-height: 20px;
+    box-sizing: border-box;
+    width: auto;
+    min-width: 72px;
+    height: 32px;
+    background: transparent;
+    color: rgb(53, 53, 53);
+    text-transform: none;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    padding: 5px 14px 6px;
+    border: 1px solid rgba(116, 116, 123, 0.5);
+    text-indent: 0px;
+    text-shadow: none;
+    outline: 0;
+    font-family: inherit;
+}
+#logoutH:hover{
+	text-decoration: none !important;
+}
+/* 헤더 끝 */
+
+/* 모달 */
+#loginForm {
+	margin: 0 auto;
+	min-width: 420px !important;
+    max-width: 420px !important;
+    padding-top: 100px !important;
+}
+#joinForm {
+	margin: 0 auto;
+	min-width: 420px !important;
+    max-width: 420px !important;
+    padding-top: 50px !important;
+}
+.form--div{
+	margin: 0 auto;
+	min-width: 420px !important;
+    max-width: 420px !important;
+}
+.modal-content {
+	background-color: #fefefe;
+	border: none !important;
+}
+/* 모달 끝 */
+
+/* 로그인 */
+#logo-h1{
+	text-align:center;
+}
+#logo-h1 a{
+	text-decoration: none !important;
+	text-transform: none;
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    align-items: flex-start;
+    display: inline-block;
+    text-shadow: none;
+    text-indent: 0px;
+    background: none;
+    padding-bottom: 12px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #ff0066;
+    font-family: Roboto, "Noto Sans KR", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+#logo-h1 a:hover{
+	text-decoration:none !important;
+}
+#loginBtn{
+	background-color:#ff0066;
+	font-size: 18px;
+	border-radius: 6px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+	font-weight: 900; 
+	color:white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+#info hr{
+	position: relative;
+	color: black;
+	text-align: center;
+	height: 1.5em;
+	border: 0px;
+	outline: 0px;
+	margin: 24px 0px;
+}
+#info hr::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid rgb(216, 216, 216);
+}
+#info hr::after{
+	content: "OR";
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 19px;
+    vertical-align: middle;
+    padding: 0px 14px;
+}
+#joinTag{
+	background-color:none;
+	width:auto;
+	color: #ff0066;
+	list-style: none;
+	font-weight: 500;
+	background: transparent;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    padding: 0px;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#googleImg{
+	width:28px;
+	height:28px;
+	vertical-align: middle;
+}
+#googleBtn{
+	vertical-align: middle;
+	text-align: center;
+	color: rgb(101, 101, 101);
+	background-color: white;
+	border-radius: 6px;
+	padding: 12px 20px;
+	border: 1px solid rgb(101, 101, 101);
+	cursor: pointer;
+	width: 100%;
+	font-weight: 900;
+    letter-spacing: -0.3px;
+    margin: 8px 0px 8px auto;
+    font-family: inherit;
+	font-size: 17px;
+	text-decoration: none;
+}
+#googleBtn:hover {
+	opacity: 0.8;
+}
+#facebookImg{
+	height:28px;
+	vertical-align: middle;
+}
+#facebookBtn{
+	text-align: center;
+	background-color: #3B5998;
+	border-radius: 6px;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-weight: 900;
+    letter-spacing: -0.3px;
+    margin: 8px 0px 8px auto;
+    font-family: inherit;
+	font-size: 17px;
+	text-decoration: none;
+}
+#facebookBtn:hover {
+	opacity: 0.8;
+}
+/* 로그인 끝 */
+
+/* 회원가입 */
+#username{
+	background: rgb(245, 245, 245);
+	border-radius: 6px;
+	font-size: 17px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+	border: none !important;
+}
+#username::placeholder{
+	color:rgb(165, 165, 170);
+}
+#email{
+	background: rgb(245, 245, 245);
+	border-radius: 6px;
+	font-size: 17px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+	border: none !important;
+}
+#email::placeholder{
+	color:rgb(165, 165, 170);
+}
+#password{
+	background: rgb(245, 245, 245);
+	border-radius: 6px;
+	font-size: 17px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+	border: none !important;
+}
+#password::placeholder{
+	color:rgb(165, 165, 170);
+}
+#info{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+}
+#loginTag{
+	background-color:none;
+	width:auto;
+	color: #ff0066;
+	list-style: none;
+	font-weight: 500;
+	background: transparent;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    padding: 0px;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#joinBtn{
+	background-color:#ff0066;
+	font-size: 18px;
+	border-radius: 6px;
+	font-family: Roboto, "Noto Sans KR", sans-serif;
+	font-weight: 900; 
+	color:white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+/* 글 목록 보기 movie_boardList */
+#board--view{
+	text-decoration: none;
+	color: black;
+}
+#board--view:hover{
+	color:blue;
+}
+#replyCount:hover{
+	text-decoration: none;
+	color:white;
+}
+#col--4{
+	text-align: end;
+}
+/* 글 목록 보기 끝 movie_boardList END */
+
+
+/* 글 상세보기 movieDetail */
+.board--title{
+	font-family: Roboto, "Noto Sans KR", sans-serif
+}
+.reply--box, .bnum--hitcount{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.replies{
+	line-height: 1;
+}
+#deleteBadge{
+	width: auto;
+	margin: 2px;
+}
+#delete-badge:hover{
+	color: #ff0066 !important;
+}
+.reply--writer{
+	font-size: 80%;
+}
+.replies--content{
+	font-size: 90%;
+}
+.btn--circle {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0;
+  border-radius: 50% !important;
+}
+/* 글 상세보기 끝 movieDetail END */
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+@font-face{
+	 font-family: 'NanumBarunGothic';
+	 font-style: normal;
+	 font-weight: 400;
+	 src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+	 src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');

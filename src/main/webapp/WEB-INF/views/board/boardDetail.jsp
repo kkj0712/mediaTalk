@@ -3,7 +3,7 @@
 <%@ include file="/WEB-INF/views/include/header.jsp" %> 
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <div class="container"><br/>
-	<p class="mb-3"><a id="font-h3" href="/">영화게시판</a></p>
+	<p class="mb-3"><a id="font-h3" href="/">MediaTalk</a></p>
 	
 	<!-- 글 상세보기 영역-->
 	<form>

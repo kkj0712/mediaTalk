@@ -21,15 +21,13 @@
 	<!--recaptcha-->
 	<div class="g-recaptcha" data-sitekey="6LdtH-IZAAAAAL1hGI9zXM9Fvx5VJUKfKEzCqynA" style="text-align: center;"></div><br/>
 	<input type="submit" id="joinBtn" name="joinBtn" value="회원가입">
-</form>
-<div class="form--div">
 	<div id="info">
 		<span>이미 가입하셨나요? <a id="loginTag" href="/login">로그인</a></span>
 	<hr>
 	</div>
 	<a href="/oauth2/authorization/google" id="googleBtn"><img src="/resources/img/google.png" id="googleImg"> 구글 로그인</a>
 	<a href="/oauth2/authorization/facebook" id="facebookBtn"><img src="/resources/img/facebook.png" id="facebookImg"> 페이스북 로그인</a>
-</div>
+</form>
 <script src="/resources/js/user.js"></script>
 <script>
 window.onload = function() {
